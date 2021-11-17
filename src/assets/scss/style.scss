@@ -1,10 +1,112 @@
-$white: #FFFFFF !important;
-
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600&display=swap");
+$white: #ffffff !important;
+$black: #000000 !important;
+$red: #ce0000 !important;
+$dark-grey: #757575 !important;
+// Navigation Bar
 nav {
-    background: $white;
+  background: #ffffff;
+  box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.2);
+  height: 100px;
+  li {
+    transition: transform ease 0.5s;
 
-    li{
-        background-color: red;
+    a {
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      padding: 3px 5px !important;
+      border-radius: 8px;
+      line-height: 21px;
+      text-align: center;
+      color: $black;
+      margin: 0px 5px;      
     }
+
+    a.active {
+      background-color: $red;
+      color: $white;
+    }
+
+    a.page:hover{
+      background-color: $red;
+      color: $white;
+    }
+
+    &:hover{
+        transform: scale(1.02);
+        transition: transform ease 0.8s;
+    }
+  }
+}
+
+// Custom Input
+.ba-input {
+  height: 23px;
+  width: 143px;
+  padding: 1px 5px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 8px;
+  color: #000000;
+}
+
+.ba-input::placeholder {
+  color: $dark-grey;
+}
+
+// Custom Icon
+.ba-icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  background-position: center !important;
+  background-size: cover !important;
+  span {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 2px 3px;
+    border-radius: 100%;
+    top: -5px;
+    right: -5px;
+    position: absolute;
+    text-align: center;
+    background-color: $red;
+    color: white;
+  }
+}
+.ba-icon.location {
+  background-image: url("data:image/svg+xml,%3Csvg width='24' height='25' viewBox='0 0 24 25' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='24' height='24' transform='translate(0 0.5)' fill='white'/%3E%3Cg filter='url(%23filter0_d_102_1330)'%3E%3Cpath d='M18 9.5C18 14.2462 14.2456 18.9924 12.6765 20.7688C12.3109 21.1827 11.6891 21.1827 11.3235 20.7688C9.75444 18.9924 6 14.2462 6 9.5C6 7.5 7.5 3.5 12 3.5C16.5 3.5 18 7.5 18 9.5Z' stroke='black' stroke-linejoin='round'/%3E%3C/g%3E%3Cg filter='url(%23filter1_d_102_1330)'%3E%3Cpath d='M14 9.5C14 10.6046 13.1046 11.5 12 11.5C10.8954 11.5 10 10.6046 10 9.5C10 8.39543 10.8954 7.5 12 7.5C13.1046 7.5 14 8.39543 14 9.5Z' stroke='black' stroke-linejoin='round'/%3E%3C/g%3E%3Cdefs%3E%3Cfilter id='filter0_d_102_1330' x='4.5' y='3' width='15' height='20.5792' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'%3E%3CfeFlood flood-opacity='0' result='BackgroundImageFix'/%3E%3CfeColorMatrix in='SourceAlpha' type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0' result='hardAlpha'/%3E%3CfeOffset dy='1'/%3E%3CfeGaussianBlur stdDeviation='0.5'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0'/%3E%3CfeBlend mode='normal' in2='BackgroundImageFix' result='effect1_dropShadow_102_1330'/%3E%3CfeBlend mode='normal' in='SourceGraphic' in2='effect1_dropShadow_102_1330' result='shape'/%3E%3C/filter%3E%3Cfilter id='filter1_d_102_1330' x='8.5' y='7' width='7' height='7' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'%3E%3CfeFlood flood-opacity='0' result='BackgroundImageFix'/%3E%3CfeColorMatrix in='SourceAlpha' type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0' result='hardAlpha'/%3E%3CfeOffset dy='1'/%3E%3CfeGaussianBlur stdDeviation='0.5'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0'/%3E%3CfeBlend mode='normal' in2='BackgroundImageFix' result='effect1_dropShadow_102_1330'/%3E%3CfeBlend mode='normal' in='SourceGraphic' in2='effect1_dropShadow_102_1330' result='shape'/%3E%3C/filter%3E%3C/defs%3E%3C/svg%3E%0A");
+}
+
+.ba-icon.cart {
+  background-image: url("data:image/svg+xml,%3Csvg width='24' height='25' viewBox='0 0 24 25' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23clip0_102_1342)'%3E%3Crect width='24' height='24' transform='translate(0 0.75)' fill='white'/%3E%3Cg filter='url(%23filter0_d_102_1342)'%3E%3Cpath d='M5.33334 6.75H19.8672C20.4687 6.75 20.9341 7.27718 20.8595 7.87403L20.1095 13.874C20.047 14.3745 19.6216 14.75 19.1172 14.75H16.5556H9.44446H8.00001' stroke='black' stroke-linejoin='round'/%3E%3C/g%3E%3Cg filter='url(%23filter1_d_102_1342)'%3E%3Cpath d='M2 4.75H4.23362C4.68578 4.75 5.08169 5.05341 5.19924 5.49003L8.30076 17.01C8.41831 17.4466 8.81422 17.75 9.26638 17.75H19' stroke='black' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/g%3E%3Cg filter='url(%23filter2_d_102_1342)'%3E%3Ccircle cx='10' cy='20.75' r='1' stroke='black' stroke-linejoin='round'/%3E%3C/g%3E%3Cg filter='url(%23filter3_d_102_1342)'%3E%3Ccircle cx='17.5' cy='20.75' r='1' stroke='black' stroke-linejoin='round'/%3E%3C/g%3E%3C/g%3E%3Cdefs%3E%3Cfilter id='filter0_d_102_1342' x='4.33334' y='6.25' width='18.0341' height='11' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'%3E%3CfeFlood flood-opacity='0' result='BackgroundImageFix'/%3E%3CfeColorMatrix in='SourceAlpha' type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0' result='hardAlpha'/%3E%3CfeOffset dy='1'/%3E%3CfeGaussianBlur stdDeviation='0.5'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0'/%3E%3CfeBlend mode='normal' in2='BackgroundImageFix' result='effect1_dropShadow_102_1342'/%3E%3CfeBlend mode='normal' in='SourceGraphic' in2='effect1_dropShadow_102_1342' result='shape'/%3E%3C/filter%3E%3Cfilter id='filter1_d_102_1342' x='0.5' y='4.25' width='20' height='16' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'%3E%3CfeFlood flood-opacity='0' result='BackgroundImageFix'/%3E%3CfeColorMatrix in='SourceAlpha' type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0' result='hardAlpha'/%3E%3CfeOffset dy='1'/%3E%3CfeGaussianBlur stdDeviation='0.5'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0'/%3E%3CfeBlend mode='normal' in2='BackgroundImageFix' result='effect1_dropShadow_102_1342'/%3E%3CfeBlend mode='normal' in='SourceGraphic' in2='effect1_dropShadow_102_1342' result='shape'/%3E%3C/filter%3E%3Cfilter id='filter2_d_102_1342' x='7.5' y='19.25' width='5' height='5' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'%3E%3CfeFlood flood-opacity='0' result='BackgroundImageFix'/%3E%3CfeColorMatrix in='SourceAlpha' type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0' result='hardAlpha'/%3E%3CfeOffset dy='1'/%3E%3CfeGaussianBlur stdDeviation='0.5'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0'/%3E%3CfeBlend mode='normal' in2='BackgroundImageFix' result='effect1_dropShadow_102_1342'/%3E%3CfeBlend mode='normal' in='SourceGraphic' in2='effect1_dropShadow_102_1342' result='shape'/%3E%3C/filter%3E%3Cfilter id='filter3_d_102_1342' x='15' y='19.25' width='5' height='5' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'%3E%3CfeFlood flood-opacity='0' result='BackgroundImageFix'/%3E%3CfeColorMatrix in='SourceAlpha' type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0' result='hardAlpha'/%3E%3CfeOffset dy='1'/%3E%3CfeGaussianBlur stdDeviation='0.5'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0'/%3E%3CfeBlend mode='normal' in2='BackgroundImageFix' result='effect1_dropShadow_102_1342'/%3E%3CfeBlend mode='normal' in='SourceGraphic' in2='effect1_dropShadow_102_1342' result='shape'/%3E%3C/filter%3E%3CclipPath id='clip0_102_1342'%3E%3Crect width='24' height='24' fill='white' transform='translate(0 0.75)'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
+}
+
+.ba-icon.user {  
+  background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='24' height='24' fill='white'/%3E%3Cg filter='url(%23filter0_d_102_1355)'%3E%3Cpath d='M14.3366 12.3466L14.0766 11.9195C13.9083 12.022 13.8158 12.2137 13.8405 12.4092C13.8651 12.6046 14.0023 12.7674 14.1907 12.8249L14.3366 12.3466ZM9.66344 12.3466L9.80926 12.8249C9.99772 12.7674 10.1349 12.6046 10.1595 12.4092C10.1842 12.2137 10.0917 12.022 9.92342 11.9195L9.66344 12.3466ZM4.06164 19.002L3.56547 18.9402L4.06164 19.002ZM19.9383 19.002L20.4345 18.9402L19.9383 19.002ZM16 8.5C16 9.94799 15.2309 11.2168 14.0766 11.9195L14.5965 12.7737C16.0365 11.8971 17 10.3113 17 8.5H16ZM12 4.5C14.2091 4.5 16 6.29086 16 8.5H17C17 5.73858 14.7614 3.5 12 3.5V4.5ZM7.99999 8.5C7.99999 6.29086 9.79085 4.5 12 4.5V3.5C9.23857 3.5 6.99999 5.73858 6.99999 8.5H7.99999ZM9.92342 11.9195C8.76907 11.2168 7.99999 9.948 7.99999 8.5H6.99999C6.99999 10.3113 7.96345 11.8971 9.40345 12.7737L9.92342 11.9195ZM9.51761 11.8683C6.36086 12.8309 3.98359 15.5804 3.56547 18.9402L4.55781 19.0637C4.92641 16.1018 7.02385 13.6742 9.80926 12.8249L9.51761 11.8683ZM3.56547 18.9402C3.45496 19.8282 4.19058 20.5 4.99999 20.5V19.5C4.70484 19.5 4.53191 19.2719 4.55781 19.0637L3.56547 18.9402ZM4.99999 20.5H19V19.5H4.99999V20.5ZM19 20.5C19.8094 20.5 20.545 19.8282 20.4345 18.9402L19.4422 19.0637C19.4681 19.2719 19.2951 19.5 19 19.5V20.5ZM20.4345 18.9402C20.0164 15.5804 17.6391 12.8309 14.4824 11.8683L14.1907 12.8249C16.9761 13.6742 19.0736 16.1018 19.4422 19.0637L20.4345 18.9402Z' fill='black'/%3E%3C/g%3E%3Cdefs%3E%3Cfilter id='filter0_d_102_1355' x='2.55441' y='3.5' width='18.8912' height='19' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'%3E%3CfeFlood flood-opacity='0' result='BackgroundImageFix'/%3E%3CfeColorMatrix in='SourceAlpha' type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0' result='hardAlpha'/%3E%3CfeOffset dy='1'/%3E%3CfeGaussianBlur stdDeviation='0.5'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0'/%3E%3CfeBlend mode='normal' in2='BackgroundImageFix' result='effect1_dropShadow_102_1355'/%3E%3CfeBlend mode='normal' in='SourceGraphic' in2='effect1_dropShadow_102_1355' result='shape'/%3E%3C/filter%3E%3C/defs%3E%3C/svg%3E%0A");
+}
+
+@media (min-width: 1200px) {
+  .container,
+  .container-sm,
+  .container-md,
+  .container-lg,
+  .container-xl {
+    max-width: 1120px !important;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container,
+  .container-sm,
+  .container-md,
+  .container-lg,
+  .container-xl,
+  .container-xxl {
+    max-width: 1220px !important;
+  }
 }

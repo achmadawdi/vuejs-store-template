@@ -10,10 +10,11 @@
 <script>
 import "@/assets/scss/style.scss";
 import Header from "@/components/layouts/Header.vue";
+
 export default {
   name: "Home",
   components: {
-    Header,
+    Header,    
   },
 };
 </script>
