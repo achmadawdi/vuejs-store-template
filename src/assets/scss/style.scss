@@ -3,6 +3,10 @@ $white: #ffffff !important;
 $black: #000000 !important;
 $red: #ce0000 !important;
 $dark-grey: #757575 !important;
+a{
+    text-decoration: none !important;
+}
+
 // Navigation Bar
 nav {
   background: #ffffff;
@@ -23,7 +27,7 @@ nav {
       margin: 0px 5px;      
     }
 
-    a.active {
+    a.router-link-exact-active {
       background-color: $red;
       color: $white;
     }
@@ -38,6 +42,53 @@ nav {
         transition: transform ease 0.8s;
     }
   }
+}
+// Footer
+footer{
+    padding: 35px 0px;
+    background-color: $red;
+    color: $white;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;   
+    .brand{
+        padding: 15px 0px;
+        text-align: left;
+        img{
+            height: 50px;
+            width: auto;
+        }
+    }
+    .list-items{
+        padding: 15px 0px;
+    }
+    ul{              
+        max-width: 321px;        
+        a{
+            color: $white;
+            font-size: 18px;            
+            line-height: 27px;
+        }   
+        li{
+            transition: transform ease 0.5s;  
+            &:hover{
+                transform: scale(1.02);
+                transition: transform ease 0.8s;
+            }     
+        }        
+    }
+
+    ul.social{
+        a{
+            font-size: 36px;
+            line-height: 41px;
+        }
+    }
+
+    .title{            
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+    }
 }
 
 // Custom Input

@@ -46,10 +46,10 @@ export default {
         <div class="position-absolute top-50 start-0 translate-middle-y">
           <ul class="navbar-nav mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link page active" aria-current="page" href="#">home</a>
+              <router-link to="/" class="nav-link page" aria-current="page" href="#">home</router-link>
             </li>
             <li class="nav-item">
-              <a class="nav-link page" href="#">kategori ayam</a>
+              <router-link to="/kategori" class="nav-link page" href="#">kategori ayam</router-link>
             </li>
             <li class="nav-item">
               <a class="nav-link d-flex align-items-center"><i class="ba-icon location me-1"></i><input class="ba-input" type="text" placeholder="kirim ke lokasimu ..."></a>

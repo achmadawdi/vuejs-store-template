@@ -1,20 +1,18 @@
 <template>
   <Header />
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div>
   <router-view />
+  <Footer />
 </template>
 
 <script>
 import "@/assets/scss/style.scss";
 import Header from "@/components/layouts/Header.vue";
+import Footer from "@/components/layouts/Footer.vue";
 
 export default {
   name: "Home",
   components: {
-    Header,    
+    Header,Footer    
   },
 };
 </script>
