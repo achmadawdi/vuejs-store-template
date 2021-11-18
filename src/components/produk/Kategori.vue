@@ -20,7 +20,7 @@ export default {
 </script>
 
 <template>
-  <div class="category" id="app">
+  <div class="category">
     <div class="bg" v-bind:style="bgTitle">
       <div class="description container">
         <h1>Boiler</h1>
@@ -64,9 +64,9 @@ export default {
                 class="order d-flex align-items-center justify-content-between"
               >
                 <a class="price">Rp 19.500,00</a>
-                <button class="ba-btn">
+                <router-link to="/produk" tag="button" class="ba-btn">
                   <fa icon="cart-plus" /> <span>Pesan</span>
-                </button>
+                </router-link>
               </div>
             </div>
           </div>
