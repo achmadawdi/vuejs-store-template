@@ -1,0 +1,441 @@
+//global custom
+a {
+    text-decoration: none !important;
+  }
+  .text-red {
+    color: $red;
+  }
+  .barrier{
+    display: inline-block;  
+    width: 0px;
+    height: 16.5px;  
+    margin: 0px 10px;
+    border: 1px solid #dedede;
+  }
+  hr {
+    background-color: #dedede;
+  }
+  
+// Navigation Bar
+nav {
+    background: #ffffff;
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.2);
+    height: 100px;
+    li {
+      transition: transform ease 0.5s;
+  
+      a {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        padding: 3px 5px !important;
+        border-radius: 8px;
+        line-height: 21px;
+        text-align: center;
+        color: $black;
+        margin: 0px 5px;
+        &.router-link-exact-active.icon{
+          background-color: unset !important;
+          color: black !important;
+        }
+        &.router-link-exact-active{
+          background-color: $red;
+          color: $white;
+        }
+        &.page:hover {
+          background-color: $red;
+          color: $white;
+        }
+      }    
+  
+      &:hover {
+        transform: scale(1.02);
+        transition: transform ease 0.8s;
+      }
+    }
+  }
+  // Footer
+  footer {
+    padding: 35px 0px;
+    background-color: $red;
+    color: $white;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    .brand {
+      padding: 15px 0px;
+      text-align: left;
+      img {
+        height: 50px;
+        width: auto;
+      }
+    }
+    .list-items {
+      padding: 15px 0px;
+    }
+    ul {
+      max-width: 321px;
+      a {
+        color: $white;
+        font-size: 18px;
+        line-height: 27px;
+      }
+      li {
+        transition: transform ease 0.5s;
+        &:hover {
+          transform: scale(1.02);
+          transition: transform ease 0.8s;
+        }
+      }
+    }
+  
+    ul.social {
+      a {
+        font-size: 36px;
+        line-height: 41px;
+      }
+    }
+  
+    .title {
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 36px;
+    }
+  }
+  
+  //Kategori
+  .category {  
+    font-family: "Poppins", sans-serif !important;
+    color: $white;
+    .bg {
+      padding: 15px 0px;
+      background-position: center !important;
+      background-size: cover !important;
+    }
+    .description {
+      padding: 25px 0px;
+      h1 {
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 54px;
+      }
+      p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: center;
+      }
+    }
+  
+    .list-items {
+      color: #000;
+      .items {
+        width: max-content;
+        text-align: center;
+        padding: 30px 0px;
+        img.img-product {
+          width: 210px;
+          height: 210px;
+          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+          border-radius: 12px;
+          margin-bottom: -40px;
+          position: relative;
+          z-index: 3;
+        }
+        .description {
+          width: 250px;
+          min-height: 210px;
+          box-shadow: -2px 4px 14px rgba(0, 0, 0, 0.25);
+          border-radius: 8px;
+          position: relative;
+          z-index: 1;
+          background-color: #ffffff;
+          padding: 55px 20px 0px 20px;
+          .title {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 27px;
+            margin-bottom: 0px;
+          }
+          .weight {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 14px;
+            color: $red;
+          }
+          .tag {
+            display: inline-block;
+            background-color: $red;
+            color: white;
+            font-size: 14px;
+            line-height: 18px;
+            border-radius: 8px;
+            padding: 3px 5px;
+            margin-bottom: 8px;
+          }
+        }
+        .order {
+          position: absolute;
+          bottom: 15px;
+          right: 0;
+          width: 100%;
+          padding: 0px 20px;
+          .price {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 21px;
+            color: #000;
+          }
+        }
+        &:hover .ba-btn span {
+          font-size: 16px;
+          transition: font-size ease 0.5s;
+        }
+      }
+    }
+  }
+  
+  .list-sub-category {
+    font-family: "Poppins", sans-serif !important;
+    font-weight: 400;
+    text-align: left;
+    li {
+      margin-right: 15px !important;
+    }
+    li.items {
+      a {
+        color: $red;
+        border: 1px solid $red;
+        border-radius: 8px;
+        padding: 3px 5px;
+      }
+    }
+    li.items.active {
+      a {
+        background-color: $red;
+        color: $white;
+      }
+    }
+    li.sub-items {
+      a {
+        color: $dark-grey;
+        border: 1px solid $dark-grey;
+        border-radius: 8px;
+        padding: 3px 5px;
+      }
+    }
+  }
+  .detail-category,
+  .my-cart {
+    font-family: "Poppins", sans-serif !important;
+    h1 {
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 54px;
+      color: #000;
+    }
+  }
+  //Keranjang
+  .my-cart {
+    .list-items {
+      .items {
+        padding: 40px 40px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 12px;
+        background-color: white;
+        .product {
+          position: relative;
+          padding: 0px;
+          height: 70px;
+          .img-product {
+            background-position: center !important;
+            background-size: cover !important;
+            border-radius: 8px;
+            height: 70px;
+            width: 70px;
+          }
+          .product-detail {
+            display: flex;
+            align-items: center;
+            .product-description{
+              padding: 0px 20px;
+              font-family: "Poppins", sans-serif !important;
+              h1{
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 27px;
+                margin: 0px;
+              }
+              .weight{
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 14px;
+                color: $red;
+              }
+            }
+          }
+          .product-amount{          
+            .total-price{
+              color: black;
+              font-weight: 600;
+              font-size: 18px;
+              line-height: 27px;
+            }
+            .sub-price{
+              font-style: italic;
+              font-weight: 300;
+              font-size: 14px;
+              line-height: 18px;
+            }
+            .control-amount{
+              .ammount{
+                display: inline-block;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 10px;
+                padding: 0px 8px;
+              }            
+            }
+          }        
+        }      
+      }
+      .pricing{
+        font-family: "Poppins", sans-serif !important;
+        .ba-btn[type=submit]{          
+          width: 100%;
+          border-radius: 8px !important;
+        }
+        .title{
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 27px;
+        }      
+        .pricing-list{
+          .pricing-items{
+            display: flex;
+            justify-content: space-between;
+          }
+          .sub-title{
+            color: #000;
+            font-size: 14px;
+            line-height: 21px;
+          }
+          .value{
+            font-size: 14px;
+            line-height: 21px;
+          }
+          .total-value{
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 21px;
+          }
+          li.pricing-items{
+            padding: 1px 0px;
+          }
+        }
+        .coupon{       
+          input.ba-input{
+            background: none;
+            border: solid #000 1px;
+            border-radius: 8px;
+            width: 60%;
+            height: max-content;
+          }
+          button.ba-btn{
+            background: #DEDEDE !important;
+            border: 1px solid #DEDEDE;
+            font-size: 14px;
+            line-height: 21px;
+            background-color: none;          
+            border-radius: 8px;
+            width: 35%;
+            height: max-content;
+          }
+        }
+      }
+  
+    }
+  }
+  
+// Custom Input & button
+.form-control{
+  border-radius: 8px !important;
+}
+.btn {
+  border-radius: 8px !important;
+}
+.ba-btn {
+    position: relative;
+    background: $red;
+    border-radius: 50px;
+    box-shadow: none;
+    border: none;
+    color: white;
+    padding: 5px 8px;  
+    span {
+      font-size: 0px;
+      transition: font-size ease 0.3s;
+    }
+    &:hover {
+      span {
+        font-size: 16px;
+        transition: font-size ease 0.5s;
+      }
+    }
+    &.plain-grey{
+      background:none !important;
+      color: $light-grey;
+      border: none;
+      box-sizing: border-box;
+      border-radius: 4px;
+      padding: 5px 0px;
+    }
+    &.rounded-black.controler{
+      background:none !important;
+      color: black;
+      border: 1px solid #000000;
+      box-sizing: border-box;
+      border-radius: 4px;
+      width: 20px;
+      height: 20px;    
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  
+  .ba-input {
+    height: 23px;
+    width: 143px;
+    padding: 1px 5px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 8px;
+    color: #000000;
+  }
+  
+  .ba-input::placeholder {
+    color: $light-grey;
+  }
+  @media (min-width: 1200px) {
+    .container,
+    .container-sm,
+    .container-md,
+    .container-lg,
+    .container-xl {
+      max-width: 1120px !important;
+    }
+  }
+  
+  @media (min-width: 1400px) {
+    .container,
+    .container-sm,
+    .container-md,
+    .container-lg,
+    .container-xl,
+    .container-xxl {
+      max-width: 1220px !important;
+    }
+  }

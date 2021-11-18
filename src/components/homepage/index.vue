@@ -1,68 +1,116 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
-    </p>
-    <h3>Installed CLI Plugins</h3>
-    <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-router" target="_blank" rel="noopener">router</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
-    </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
-    </ul>
-    <h3>Ecosystem</h3>
-    <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
-      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
-  </div>
-  <button 
-    class="btn btn-primary" 
-    data-bs-target="#collapseTarget" 
-    data-bs-toggle="collapse">
-    Bootstrap collapse
-  </button>
-  <div class="collapse py-2" id="collapseTarget">
-    This is the toggle-able content!
+  <div class="container">
+    <header>
+      <div class="row align-items-center">
+        <div class="col-6">
+          <div class="text-header text-start pb-4">
+            <h1>Beli ayam <span>makin</span> mudah,</h1>
+            <p><span>yuk pilih</span> ayam,</p>
+          </div>
+          <div class="row group-icon-ayam pt-4 px-4">
+            <div class="col-3 d-flex justify-content-center">
+              <a href="/kategori">
+                <div>
+                  <div class="box-icon-ayam">
+                    <img
+                      src="../../assets/img/ayamkampung.png"
+                      alt="ayam-kampung"
+                    />
+                  </div>
+                  <div class="text-box-icon">
+                    <p>Ayam Kampung</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-3 d-flex justify-content-center">
+              <a href="/kategori">
+                <div>
+                  <div class="box-icon-ayam">
+                    <img
+                      src="../../assets/img/ayampejantan.png"
+                      alt="ayam-pejantan"
+                    />
+                  </div>
+                  <div class="text-box-icon">
+                    <p>Ayam Penjantan</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-3 d-flex justify-content-center">
+              <a href="/kategori">
+                <div>
+                  <div class="box-icon-ayam">
+                    <img
+                      src="../../assets/img/broiler.png"
+                      alt="ayam-broiler"
+                    />
+                  </div>
+                  <div class="text-box-icon">
+                    <p>Ayam Broiler</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-3 d-flex justify-content-center">
+              <a href="/kategori">
+                <div>
+                  <div class="box-icon-ayam">
+                    <img
+                      src="../../assets/img/potonganlainya.png"
+                      alt="potongan-lainnya"
+                    />
+                  </div>
+                  <div class="text-box-icon">
+                    <p>Lainnya</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="wrap-icon-ayam"></div>
+        </div>
+        <div class="col-6">
+          <div class="header-img">
+            <img src="../../assets/img/header-img.png" alt="header-img" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <section id="section-1">
+      <div class="header-section-1">
+        <h1>Makin Mudah <span>beli ayam</span>!</h1>
+        <p>semudah apa sih?</p>
+      </div>
+      <div class="row content-section-1">
+        <div class="col-4">
+          <img src="../../assets/img/telur1.png" alt="telur-1" />
+          <p>1. Pilih Produk kamu</p>
+        </div>
+        <div class="col-4">
+          <img src="../../assets/img/telur2.png" alt="telur-2" />
+          <p>2. Lakukan pembayaran produk kamu</p>
+        </div>
+        <div class="col-4">
+          <img src="../../assets/img/telur3.png" alt="telur-3" />
+          <p>3. Pesanan kamu di antar</p>
+        </div>
+      </div>
+      <div class="description-section-1">
+        <p>Cuman butuh 3 langkah, yuk langsung cobain</p>
+        <a href="#" class="btn btn-primary shadow-none">Cari produk</a>
+      </div>
+    </section>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: "HelloWorld",
   props: {
-    msg: String
-  }
-}
+    msg: String,
+  },
+};
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
-</style>

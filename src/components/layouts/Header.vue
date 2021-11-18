@@ -59,10 +59,10 @@ export default {
         <div class="position-absolute top-50 end-0 translate-middle-y">
           <ul class="navbar-nav mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#"><i class="ba-icon cart"><span>3</span></i></a>
+              <router-link to="/keranjang" class="nav-link icon" aria-current="page" href="#"><i class="ba-icon cart"><span>3</span></i></router-link>
             </li>
             <li class="nav-item">
-              <a class="nav-link d-flex align-items-center" href="#"><i class="ba-icon user me-1"></i> masuk/daftar</a>
+              <router-link to="/customer/login" class="nav-link d-flex align-items-center icon" href="#"><i class="ba-icon user me-1"></i> masuk/daftar</router-link>
             </li>
           </ul>
         </div>

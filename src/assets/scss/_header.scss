@@ -1,0 +1,87 @@
+html,
+body {
+  font-family: "Poppins", sans-serif;
+}
+header {
+  padding: 50px 0px;
+  min-height: 660px;
+  background-image: url("../img/ayamleft.png");
+  background-color: $white;
+  background-size: cover;
+  background-position: left;
+}
+.text-header {
+  font-family: "Poppins", sans-serif !important;
+  width: 400px;
+}
+.text-header h1 {
+  font-weight: weight(semi-bold);
+  color: $black;
+  font-size: 50px;
+  line-height: 60px;
+}
+.text-header h1 > span {
+  font-weight: weight(regular);
+  color: $black;
+}
+.text-header p {
+  font-weight: weight(semi-bold);
+  color: $red;
+  font-size: 24px;
+  line-height: 25px;
+}
+.text-header p > span {
+  font-weight: weight(regular);
+  color: $red;
+  font-size: 24px;
+}
+.group-icon-ayam {  
+  margin: 100px auto -50px auto;
+  .col-3 {      
+    transition: all ease 0.8s;
+    &:hover {
+      margin-top: -2%;
+      transition: all ease 0.8s;
+    }
+  }
+}
+.box-icon-ayam {
+  background-color: #f1b986;
+  width: 97px;
+  height: 112px;
+  border-radius: 10px;
+}
+.box-icon-ayam img {
+  width: 97px;
+  height: 112px;
+}
+.text-box-icon {
+  font-family: "Poppins", sans-serif !important;
+  background-color: $white;
+  color: $black;
+  height: 23px;
+  width: 110px;
+  margin-top: -20px;
+  margin-left: -6px;
+  border-radius: 4px;
+}
+.text-box-icon p {
+  text-align: center;
+  font-size: 12px;
+  font-weight: weight(regular);
+}
+.wrap-icon-ayam {
+  height: 90px;
+  width: 100%;
+  background-color: $red;
+  border-radius: 8px;
+  z-index: 0;
+}
+.header-img {
+  margin-top: 10px;
+  text-align: right;
+}
+.header-img img {
+  width: 447px;
+  height: 421px;
+}
