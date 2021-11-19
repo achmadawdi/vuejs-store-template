@@ -8,14 +8,15 @@
         background-color: white;
         .product {
           position: relative;
-          padding: 0px;
-          height: 70px;
+          padding: 10px 10px;
+          height: max-content;
+          border: 1px solid #DEDEDE;
           .img-product {
             background-position: center !important;
             background-size: cover !important;
             border-radius: 8px;
-            height: 70px;
-            width: 70px;
+            height: 80px;
+            width: 80px;
           }
           .product-detail {
             display: flex;
@@ -95,6 +96,29 @@
       }
   
     }
+    .product-amount{          
+      .total-price{
+        color: black;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+      }
+      .sub-price{
+        font-style: italic;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 18px;
+      }
+      .control-amount{
+        .ammount{
+          display: inline-block;
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 10px;
+          padding: 0px 8px;
+        }            
+      }
+    } 
   }
 
   .sub-price{

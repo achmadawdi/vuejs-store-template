@@ -4,39 +4,49 @@ const routes = [
   {
     path: '/',
     name: 'Home',
-    component: () => import(/* webpackChunkName: "about" */ '../components/homepage')
+    component: () => import('../components/homepage')
   },
   {
-    path: '/kategori',
+    path: '/kategori/:id',
     name: 'Kategori',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../components/produk/Kategori')
+    
+    component: () => import('../components/produk/Kategori')
   },
   {
     path: '/keranjang',
     name: 'Keranjang',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../components/keranjang')
+    
+    component: () => import('../components/keranjang')
   },
   {
-    path: '/produk',
+    path: '/produk/:id',
     name: 'Produk',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../components/produk')
+    props: true,
+    component: () => import('../components/produk')
   },
   {
-    path: '/customer/login',
-    name: 'Login',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../components/customer/login')
+    path: '/customer/masuk',
+    name: 'Masuk',
+    
+    component: () => import('../components/customer/Masuk')
+  },
+  {
+    path: '/customer/daftar',
+    name: 'Daftar',
+    
+    component: () => import('../components/customer/Daftar')
+  },
+  {
+    path: '/customer/dashboard',
+    name: 'Dashboard',
+    
+    component: () => import('../components/customer')
+  },
+  {
+    path: '/customer/pesanan',
+    name: 'Pesanan',
+    
+    component: () => import('../components/customer/Pesanan')
   }
 ]
 

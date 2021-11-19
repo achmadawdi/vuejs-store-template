@@ -1,0 +1,45 @@
+[
+    {
+        "id": 0,
+        "category": "Ayam Broiler",
+        "description": "<b>Ayam Broiler</b> atau yang biasa kamu kenal dengan ayam potong/negeri, memiliki tekstur daging yang tebal dan cukup lunak. Hanya menambahkan bumbu dan dan dengan waktu yang cepat, anda sudah dapat menikmati ayam broiler ini.",
+        "image": "broiler.png",
+        "backgroudn": "produk.jpg",
+        "sub_category": [
+            "Dada fillet",
+            "Paha fillet"
+        ]
+    },
+    {
+        "id": 1,
+        "category": "Ayam Kampung",
+        "description": "<b>Ayam Kampung</b>, Gallus Clomesticus adalah bahasa ilmiah dari jenis ayam ini,Ciri Khasnya adalah memiliki kaki yang berwarna hitam dan daging yang cenderung alot namun mempunya rasa yang gurih",
+        "image": "ayamkampung.png",
+        "backgroudn": "produk.jpg",
+        "sub_category": [
+            "Sayap",
+            "Dada",
+            "Paha"
+        ]
+    },
+    {
+        "id": 2,
+        "category": "Ayam Pejantan",
+        "description": "<b>Ayam Pejantan</b> adalah ayam hasil petelur yang berkelamin jantan, Tekstur dagingnya hampir menyerupai ayam kampung, namun ayam jenis ini memiliki kaki yang berwarna putih",
+        "image": "ayampejantan.png",
+        "backgroudn": "produk.jpg",
+        "sub_category": [
+            "Paha fillet"
+        ]
+    },
+    {
+        "id": 3,
+        "category": "Lainnya",
+        "description": "<b>Potongan lainnya</b>, kami menyediakan berbagai macam produk seperti Ayam Ungkep, Ayam Marinasi, Ayam Fillet, dan masih banyak lagi",
+        "image": "potonhanlainya.png",
+        "backgroudn": "produk.jpg",
+        "sub_category": [
+            "Dada fillet"
+        ]
+    }
+]

@@ -1,0 +1,197 @@
+[
+    {
+        "id": 0,
+        "category": "Ayam Broiler",
+        "title": "Broiler 0.4Kg",
+        "weight": 0.4,
+        "stock": 6,
+        "price": 19500,
+        "discount": true,
+        "description": "<b>Ayam Broiler</b> Dengan Ukuran 0.4Kg.Ayam Broiler atau yang biasa kamu kenal dengan ayam potong/negeri, memiliki tekstur daging yang tebal dan cukup lunak. Hanya menambahkan bumbu dan dan dengan waktu yang cepat, anda sudah dapat menikmati ayam broiler ini.",
+        "thumbnail": "produk.jpg",
+        "images": [
+            "produk.jpg",
+            "produk.jpg"
+        ]
+    },
+    {
+        "id": 2,
+        "category": "Ayam Broiler",
+        "title": "Broiler 0.6Kg",
+        "weight": 0.6,
+        "stock": 6,
+        "price": 21500,
+        "discount": false,
+        "description": "<b>Ayam Broiler</b> Dengan Ukuran 0.4Kg.Ayam Broiler atau yang biasa kamu kenal dengan ayam potong/negeri, memiliki tekstur daging yang tebal dan cukup lunak. Hanya menambahkan bumbu dan dan dengan waktu yang cepat, anda sudah dapat menikmati ayam broiler ini.",
+        "thumbnail": "produk.jpg",
+        "images": [
+            "produk.jpg",
+            "produk.jpg"
+        ]
+    },
+    {
+        "id": 3,
+        "category": "Ayam Broiler",
+        "title": "Broiler 0.7Kg",
+        "weight": 0.7,
+        "stock": 6,
+        "price": 24000,
+        "discount": false,
+        "description": "<b>Ayam Broiler</b> Dengan Ukuran 0.4Kg.Ayam Broiler atau yang biasa kamu kenal dengan ayam potong/negeri, memiliki tekstur daging yang tebal dan cukup lunak. Hanya menambahkan bumbu dan dan dengan waktu yang cepat, anda sudah dapat menikmati ayam broiler ini.",
+        "thumbnail": "produk.jpg",
+        "images": [
+            "produk.jpg",
+            "produk.jpg"
+        ]
+    },
+    {
+        "id": 4,
+        "category": "Ayam Broiler",
+        "title": "Broiler 0.8Kg",
+        "weight": 0.8,
+        "stock": 6,
+        "price": 26500,
+        "discount": false,
+        "description": "<b>Ayam Broiler</b> Dengan Ukuran 0.4Kg.Ayam Broiler atau yang biasa kamu kenal dengan ayam potong/negeri, memiliki tekstur daging yang tebal dan cukup lunak. Hanya menambahkan bumbu dan dan dengan waktu yang cepat, anda sudah dapat menikmati ayam broiler ini.",
+        "thumbnail": "produk.jpg",
+        "images": [
+            "produk.jpg",
+            "produk.jpg"
+        ]
+    },
+    {
+        "id": 5,
+        "category": "Ayam Broiler",
+        "title": "Broiler 0.9Kg",
+        "weight": 0.9,
+        "stock": 6,
+        "price": 29500,
+        "discount": false,
+        "description": "<b>Ayam Broiler</b> Dengan Ukuran 0.4Kg.Ayam Broiler atau yang biasa kamu kenal dengan ayam potong/negeri, memiliki tekstur daging yang tebal dan cukup lunak. Hanya menambahkan bumbu dan dan dengan waktu yang cepat, anda sudah dapat menikmati ayam broiler ini.",
+        "thumbnail": "produk.jpg",
+        "images": [
+            "produk.jpg",
+            "produk.jpg"
+        ]
+    },
+    {
+        "id": 7,
+        "category": "Ayam Broiler",
+        "title": "Broiler 1Kg",
+        "weight": 1,
+        "stock": 6,
+        "price": 33000,
+        "discount": false,
+        "description": "<b>Ayam Broiler</b> Dengan Ukuran 0.4Kg.Ayam Broiler atau yang biasa kamu kenal dengan ayam potong/negeri, memiliki tekstur daging yang tebal dan cukup lunak. Hanya menambahkan bumbu dan dan dengan waktu yang cepat, anda sudah dapat menikmati ayam broiler ini.",
+        "thumbnail": "produk.jpg",
+        "images": [
+            "produk.jpg",
+            "produk.jpg"
+        ]
+    },
+    {
+        "id": 8,
+        "category": "Ayam Pejantan",
+        "title": "Pejantan 0.6Kg",
+        "weight": 0.6,
+        "stock": 6,
+        "price": 30000,
+        "discount": false,
+        "description": "<b>Ayam Pejantan</b> Dengan Ukuran 0.4Kg.Ayam Pejantan atau yang biasa kamu kenal dengan ayam potong/negeri, memiliki tekstur daging yang tebal dan cukup lunak. Hanya menambahkan bumbu dan dan dengan waktu yang cepat, anda sudah dapat menikmati ayam broiler ini.",
+        "thumbnail": "produk.jpg",
+        "images": [
+            "produk.jpg",
+            "produk.jpg"
+        ]
+    },
+    {
+        "id": 9,
+        "category": "Ayam Pejantan",
+        "title": "Pejantan 1Kg",
+        "weight": 1,
+        "stock": 6,
+        "price": 33000,
+        "discount": false,
+        "description": "<b>Ayam Pejantan</b> Dengan Ukuran 0.4Kg.Ayam Pejantan atau yang biasa kamu kenal dengan ayam potong/negeri, memiliki tekstur daging yang tebal dan cukup lunak. Hanya menambahkan bumbu dan dan dengan waktu yang cepat, anda sudah dapat menikmati ayam broiler ini.",
+        "thumbnail": "produk.jpg",
+        "images": [
+            "produk.jpg",
+            "produk.jpg"
+        ]
+    },
+    {
+        "id": 10,
+        "category": "Ayam Pejantan",
+        "title": "Pejantan 1.1Kg",
+        "weight": 1.1,
+        "stock": 6,
+        "price": 40000,
+        "discount": false,
+        "description": "<b>Ayam Pejantan</b> Dengan Ukuran 0.4Kg.Ayam Pejantan atau yang biasa kamu kenal dengan ayam potong/negeri, memiliki tekstur daging yang tebal dan cukup lunak. Hanya menambahkan bumbu dan dan dengan waktu yang cepat, anda sudah dapat menikmati ayam broiler ini.",
+        "thumbnail": "produk.jpg",
+        "images": [
+            "produk.jpg",
+            "produk.jpg"
+        ]
+    },
+    {
+        "id": 11,
+        "category": "Ayam Kampung",
+        "title": "Ayam Kampung 1Kg",
+        "weight": 1,
+        "stock": 6,
+        "price": 33000,
+        "discount": false,
+        "description": "<b>Ayam Kampung</b> Dengan Ukuran 0.4Kg.Ayam Pejantan atau yang biasa kamu kenal dengan ayam potong/negeri, memiliki tekstur daging yang tebal dan cukup lunak. Hanya menambahkan bumbu dan dan dengan waktu yang cepat, anda sudah dapat menikmati ayam broiler ini.",
+        "thumbnail": "produk.jpg",
+        "images": [
+            "produk.jpg",
+            "produk.jpg"
+        ]
+    },
+    {
+        "id": 12,
+        "category": "Ayam Kampung",
+        "title": "Ayam Kampung 1.2Kg",
+        "weight": 1.2,
+        "stock": 3,
+        "price": 36000,
+        "discount": false,
+        "description": "<b>Ayam Kampung</b> Dengan Ukuran 0.4Kg.Ayam Pejantan atau yang biasa kamu kenal dengan ayam potong/negeri, memiliki tekstur daging yang tebal dan cukup lunak. Hanya menambahkan bumbu dan dan dengan waktu yang cepat, anda sudah dapat menikmati ayam broiler ini.",
+        "thumbnail": "produk.jpg",
+        "images": [
+            "produk.jpg",
+            "produk.jpg"
+        ]
+    },
+    {
+        "id": 13,
+        "category": "Ayam Kampung",
+        "title": "Ayam Kampung 1.5Kg",
+        "weight": 1.5,
+        "stock": 6,
+        "price": 40000,
+        "discount": false,
+        "description": "<b>Ayam Kampung</b> Dengan Ukuran 0.4Kg.Ayam Pejantan atau yang biasa kamu kenal dengan ayam potong/negeri, memiliki tekstur daging yang tebal dan cukup lunak. Hanya menambahkan bumbu dan dan dengan waktu yang cepat, anda sudah dapat menikmati ayam broiler ini.",
+        "thumbnail": "produk.jpg",
+        "images": [
+            "produk.jpg",
+            "produk.jpg"
+        ]
+    },
+    {
+        "id": 14,
+        "category": "Lainnya",
+        "title": "Ayam Filet 1.5Kg",
+        "weight": 1.5,
+        "stock": 6,
+        "price": 40000,
+        "discount": false,
+        "description": "<b>Ayam Filet</b> Dengan Ukuran 0.4Kg.Ayam Filet atau yang biasa kamu kenal dengan ayam potong/negeri, memiliki tekstur daging yang tebal dan cukup lunak. Hanya menambahkan bumbu dan dan dengan waktu yang cepat, anda sudah dapat menikmati ayam broiler ini.",
+        "thumbnail": "produk.jpg",
+        "images": [
+            "produk.jpg",
+            "produk.jpg"
+        ]
+    }
+]

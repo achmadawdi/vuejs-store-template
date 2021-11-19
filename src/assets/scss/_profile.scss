@@ -1,0 +1,125 @@
+.profil-section{
+    margin-top: 50px;
+}
+
+.tab-pane{
+    border: solid 1px #dedede;
+
+}
+.card-profil-1{
+    border : none;
+    width: 220px;
+    margin: 0 auto;
+    padding: 50px 0px;
+}
+.card-profil-1 hr{
+    margin: 0 auto 1.25rem auto;
+    width: 100%;
+}
+.card-profil-1 .card-body .card-title{
+    font-size: 24px;
+    font-weight: weight(semi-bold);
+    color: $black;
+    text-align: center;
+}
+.card-profil-1 .card-body .card-text{
+    text-align: center;
+    color: #757575;
+    font-size: 12px;
+    font-weight: weight(regular);
+
+}
+.card-profil-1 .card-img-top{
+    height: 140px;
+    width:140px;
+    margin:0 auto;
+    background: whitesmoke;
+    border-radius: 10px;
+}
+.btn{
+    text-align: center;
+}
+.btn-profil{
+    border-radius: 100px;
+    font-size: 18px;
+    margin-bottom: 10px;    
+    &:hover.router-link-exact-active,&.router-link-exact-active{
+        background-color: $red;
+        color: white !important;
+    }    
+    &:hover{
+        border: 1px solid $red;
+        color: $red;
+    }
+}
+
+.btn-deactive{
+    color:$black;
+    border: 1px transparent;
+    &:hover{
+        background-color: $red;
+        color: $white;
+        border: $red;
+    }
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link
+{
+    color: $black;
+    font-weight: weight(regular);
+    font-size: 18px;
+    padding: 10px 30px;
+    &.active{
+        color: $black;
+        font-weight: weight(semi-bold);
+        font-size: 18px;
+        background-color: #F2F2F2;
+        border-bottom: 5px $red solid; 
+    }
+    &:hover{
+        background-color: #F2F2F2;
+        border-bottom: 5px $red solid;
+    }
+}
+
+.card-profil-2{
+    margin: 20px 30px;
+    padding: 15px 0;
+    border-radius: 8px;
+    box-shadow: -6px 5px #F2F2F2;
+}
+.img-col-profil-2{
+    text-align: center;
+    padding: 1.25rem 0;
+}
+.img-profil-2{
+    width: 140px;
+    height: 140px;
+    background-color: whitesmoke;
+    border-radius: 8px;
+}
+.list-profil{
+    padding-left: 0;
+    margin-top: 1.25rem;    
+    li{
+        list-style-type: none;
+        font-size: 14px;
+        font-weight: weight(semi-bold);
+        color:$black;
+        margin: 3px 0;    
+    }
+    &.detail li{
+        font-weight: 400 !important;    
+    }
+}
+.card-body-profil-2{
+    padding-left: 0;
+}
+.badge{
+    padding: 5px 10px;
+    border-radius: 6px;
+}
+.badge-danger{
+    background-color: $red;
+
+}

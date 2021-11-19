@@ -9,7 +9,7 @@
           </div>
           <div class="row group-icon-ayam pt-4 px-4">
             <div class="col-3 d-flex justify-content-center">
-              <a href="/kategori">
+              <router-link to ="/kategori/ayam-kampung">
                 <div>
                   <div class="box-icon-ayam">
                     <img
@@ -21,11 +21,11 @@
                     <p>Ayam Kampung</p>
                   </div>
                 </div>
-              </a>
+              </router-link>
             </div>
 
             <div class="col-3 d-flex justify-content-center">
-              <a href="/kategori">
+              <router-link to="/kategori/ayam-pejantan">
                 <div>
                   <div class="box-icon-ayam">
                     <img
@@ -37,10 +37,10 @@
                     <p>Ayam Penjantan</p>
                   </div>
                 </div>
-              </a>
+              </router-link>
             </div>
             <div class="col-3 d-flex justify-content-center">
-              <a href="/kategori">
+              <router-link to="/kategori/ayam-broiler">
                 <div>
                   <div class="box-icon-ayam">
                     <img
@@ -52,10 +52,10 @@
                     <p>Ayam Broiler</p>
                   </div>
                 </div>
-              </a>
+              </router-link>
             </div>
             <div class="col-3 d-flex justify-content-center">
-              <a href="/kategori">
+              <router-link to="/kategori/lainnya">
                 <div>
                   <div class="box-icon-ayam">
                     <img
@@ -67,7 +67,7 @@
                     <p>Lainnya</p>
                   </div>
                 </div>
-              </a>
+              </router-link>
             </div>
           </div>
           <div class="wrap-icon-ayam"></div>
