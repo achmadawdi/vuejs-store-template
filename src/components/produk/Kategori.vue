@@ -23,6 +23,7 @@ export default {
   created() {
     this.filterCategory();
     this.filterProductByCategory();    
+    document.title="Kategori - "+this.dataCategory.category;
   },
   methods: {
     formatPrice(value) {

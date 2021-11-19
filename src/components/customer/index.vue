@@ -20,7 +20,7 @@ export default {
         <div class="profil-section">
             <div class="row">
                 <Sidebar/>
-                <div class="col-9 ">
+                <div class="col-lg-9 ">
                     <div class="container">
                         <ul class="nav nav-tabs" id="myTab" role="tablist">
                             <li class="nav-item" role="presentation">
@@ -49,7 +49,7 @@ export default {
                                         <div class="col-md-9 ">
                                             <div class="card-body card-body-profil-2">
                                                 <div class="row">
-                                                    <div class="col-3">
+                                                    <div class="col-lg-3">
                                                         <ul class="list-profil text-start">
                                                             <li>Nama Awal</li>
                                                             <li>Nama Akhir</li>
@@ -57,7 +57,7 @@ export default {
                                                             <li>No Telephone</li>
                                                         </ul>
                                                     </div>
-                                                    <div class="col-7">
+                                                    <div class="col-lg-7">
                                                         <ul class="list-profil detail text-start">
                                                             <li>Bang</li>
                                                             <li>Jarwo</li>

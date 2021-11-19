@@ -1,3 +1,34 @@
+
+<script>
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
+import { faBars} from "@fortawesome/free-solid-svg-icons";
+library.add(faBars);
+export default {
+  name: "Header",
+  components: {
+    fa: FontAwesomeIcon,
+  },
+  data() {
+    return {     
+      isShow: "show"
+    };
+  },
+  methods: {
+    showBar() {
+      var element = document.getElementById("navbarTogglerDemo01");
+      if(this.isShow == "show"){
+        this.isShow = "not-show"        
+        element.classList.add("show");
+      }
+      else {
+        this.isShow = "show";
+        element.classList.remove("show");
+      }
+    },
+  }
+};
+</script>
 <template>
   <nav class="navbar navbar-expand-lg">
     <div class="container">
@@ -9,11 +40,12 @@
         aria-controls="navbarTogglerDemo01"
         aria-expanded="false"
         aria-label="Toggle navigation"
+        v-on:click="showBar()"
       >
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"><fa icon="bars"/></span>
       </button>
       <div
-        class="collapse position-relative navbar-collapse"
+        class="collapse position-relative navbar-collapse" 
         id="navbarTogglerDemo01"
       >
         <a
@@ -41,7 +73,7 @@
             </li>
           </ul>
         </div>
-        <div class="position-absolute top-50 end-0 translate-middle-y">
+        <div id="asd" class="position-absolute top-50 end-0 translate-middle-y">
           <ul class="navbar-nav mb-2 mb-lg-0">
             <li class="nav-item">
               <router-link to="/keranjang" class="nav-link icon" aria-current="page" href="#"><i class="ba-icon cart"><span>3</span></i></router-link>

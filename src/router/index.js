@@ -4,7 +4,7 @@ const routes = [
   {
     path: '/',
     name: 'Home',
-    component: () => import('../components/homepage')
+    component: () => import('../components/homepage')    
   },
   {
     path: '/kategori/:id',
