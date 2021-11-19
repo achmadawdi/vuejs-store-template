@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import "@/assets/scss/style.scss";
+import "@/assets/scss/main.scss";
 import Header from "@/components/layouts/Header.vue";
 import Footer from "@/components/layouts/Footer.vue";
 

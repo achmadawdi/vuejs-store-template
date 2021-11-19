@@ -1,0 +1,91 @@
+.product {
+  padding: 60px 100px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  .image-product {
+    .active-image {
+      width: 400px;
+      height: 400px;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+      border-radius: 12px;
+      background-position: center !important;
+      background-size: cover !important;
+    }
+    .list-images {
+      .image {
+        background-position: center !important;
+        background-size: cover !important;
+        width: 91px;
+        height: 91px;
+        background: #c4c4c4;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 8px;        
+      }
+    }
+  }
+  .product-detail{
+    width: 410px;
+    text-align: left;
+    font-family: "Poppins", sans-serif !important;
+      span.category{
+        font-size: 14px;
+        line-height: 21px;
+        color: $white;
+        background-color: $red;
+      }
+      h1.title{
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 54px;        
+      }
+      .weight{
+        font-weight: 900;
+        font-size: 14px;
+        line-height: 16px;
+        color: $red;
+      }
+      .stock{
+        font-weight: 900;
+        font-size: 14px;
+        line-height: 16px;
+        color: $dark_grey;
+      }
+      .description{        
+        font-size: 16px;
+        line-height: 21px;
+      }
+      .pricing{
+          .price{
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 27px;
+            color: $black;
+          }
+      }
+      .promo{
+        padding: 15px;
+        background: rgba(196, 196, 196, 0.15) !important;
+        border-radius: 12px;
+          span{
+              display: inline-block;
+              border: 1px solid #000000;
+              box-sizing: border-box;
+              border-radius: 8px;
+              padding: 1px 5px;
+          }
+      }
+      .btn.ba-btn{
+          color: $red;
+          background-color: unset !important;
+          border: 1px solid $red;
+          transition: all ease 0.3s;
+          &:hover{
+            color: $white;
+            background-color: $red;
+            border: none;
+            transition: all ease 0.5s;
+          }
+      }
+  }
+}

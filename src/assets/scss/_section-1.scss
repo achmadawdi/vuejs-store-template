@@ -1,0 +1,53 @@
+#section-1 {  
+    padding-bottom: 100px;
+    font-family: 'Poppins', sans-serif !important;
+    .header-section-1 h1{
+        font-weight: weight(semi-bold);
+        font-size: 50px;
+        color: $black;
+        text-align: center;
+    }
+    .header-section-1 h1>span{
+        font-weight: weight(regular);
+        font-size: 50px;
+        color: $black;
+    }
+    .header-section-1 p{        
+        font-weight: weight(regular);
+        font-size: 24px;
+        color: $red;
+        text-align: center;
+    }
+    .content-section-1 {
+        text-align: center;
+    }
+    .content-section-1 .col-4 img{
+        height: 150px;
+        width: 150px;
+    }
+    .content-section-1 .col-4 p{
+        text-align: center;
+        margin:auto;
+        max-width: 200px;
+        font-weight: weight(semi-bold);
+        font-size: 20;
+        color: $black;
+    }
+    .description-section-1{
+        margin-top: 20px;
+        text-align: center;
+    }
+    .description-section-1 p{
+        font-weight: weight(regular);
+        font-size: 18;
+        color: $black;
+    }
+    .description-section-1 .btn-primary{
+        background-color: $red;
+        border-color: $red;
+    }
+     .description-section-1 .btn-primary:hover{
+        background-color: #b10000;
+        border-color: #b10000;
+    }
+}

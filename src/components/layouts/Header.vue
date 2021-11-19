@@ -1,18 +1,3 @@
-<script>
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-
-library.add(faMapMarkerAlt)
-export default {
-  name: "Header",
-  components: {
-    'fa' : FontAwesomeIcon,    
-  },
-};
-
-</script>
-
 <template>
   <nav class="navbar navbar-expand-lg">
     <div class="container">
@@ -49,7 +34,7 @@ export default {
               <router-link to="/" class="nav-link page" aria-current="page" href="#">home</router-link>
             </li>
             <li class="nav-item">
-              <router-link to="/kategori" class="nav-link page" href="#">kategori ayam</router-link>
+              <router-link to="/kategori/list" class="nav-link page" href="#">kategori ayam</router-link>
             </li>
             <li class="nav-item">
               <a class="nav-link d-flex align-items-center"><i class="ba-icon location me-1"></i><input class="ba-input" type="text" placeholder="kirim ke lokasimu ..."></a>
@@ -59,10 +44,10 @@ export default {
         <div class="position-absolute top-50 end-0 translate-middle-y">
           <ul class="navbar-nav mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#"><i class="ba-icon cart"><span>3</span></i></a>
+              <router-link to="/keranjang" class="nav-link icon" aria-current="page" href="#"><i class="ba-icon cart"><span>3</span></i></router-link>
             </li>
             <li class="nav-item">
-              <a class="nav-link d-flex align-items-center" href="#"><i class="ba-icon user me-1"></i> masuk/daftar</a>
+              <router-link to="/customer/masuk" class="nav-link d-flex align-items-center icon" href="#"><i class="ba-icon user me-1"></i> masuk/daftar</router-link>
             </li>
           </ul>
         </div>
