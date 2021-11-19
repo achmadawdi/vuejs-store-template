@@ -27,8 +27,9 @@ export default {
       showModal: false,
     };
   },
-  created(){            
+  created(){                  
       this.filterProduct()
+      document.title="Produk - "+this.dataProduct.title;
   },
   methods: {
     formatPrice(value) {

@@ -4,14 +4,14 @@ import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import { faHome,faBox} from "@fortawesome/free-solid-svg-icons";
 library.add(faHome,faBox);
 export default {
-  name: "Footer",
+  name: "Sidebar",
   components: {
     fa: FontAwesomeIcon,
-  },
+  }, 
 };
 </script>
 <template>
-  <div class="col-3">
+  <div class="col-3 side-bar-a">
     <div class="card card-profil-1 mb-5 px-3">
       <div
         src="img/telur1.png"

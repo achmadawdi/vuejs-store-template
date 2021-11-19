@@ -2,7 +2,7 @@
   <div class="container">
     <header>
       <div class="row align-items-center">
-        <div class="col-6">
+        <div class="col-lg-6">
           <div class="text-header text-start pb-4">
             <h1>Beli ayam <span>makin</span> mudah,</h1>
             <p><span>yuk pilih</span> ayam,</p>
@@ -85,15 +85,15 @@
         <p>semudah apa sih?</p>
       </div>
       <div class="row content-section-1">
-        <div class="col-4">
+        <div class="col-lg-4">
           <img src="../../assets/img/telur1.png" alt="telur-1" />
           <p>1. Pilih Produk kamu</p>
         </div>
-        <div class="col-4">
+        <div class="col-lg-4">
           <img src="../../assets/img/telur2.png" alt="telur-2" />
           <p>2. Lakukan pembayaran produk kamu</p>
         </div>
-        <div class="col-4">
+        <div class="col-lg-4">
           <img src="../../assets/img/telur3.png" alt="telur-3" />
           <p>3. Pesanan kamu di antar</p>
         </div>
@@ -106,11 +106,3 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: "HelloWorld",
-  props: {
-    msg: String,
-  },
-};
-</script>

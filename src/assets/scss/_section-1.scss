@@ -51,3 +51,12 @@
         border-color: #b10000;
     }
 }
+@media only screen and (min-device-width: 360px) and (max-device-width: 640px) {
+    .header-img{
+        display: none;
+    }
+    .text-header{
+        font-size: 20px !important;
+        width: auto;
+    }
+}
